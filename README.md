@@ -1,2 +1,3 @@
 # s.a-cadastros
-Junio dias,Gabriel Herrique e Lucas alves
+Junio dias,Gabriel Henrrique e Lucas alves
+Professor: Rubem Candido dos Santos
