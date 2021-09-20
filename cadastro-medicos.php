@@ -5,12 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box
+        }
+        
+        body{
+            background: rgb(28,28,28);
+        }
+
+        .section{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            height: 460px;
+        }
+
+       
+
+        section{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            height: 375px;
+        }
+
+       
+
+        
+
+        form{
+            width: 500px;
+            height: 365px;
+            border-radius: 3px;
+            background-color: rgb(32,32,32);
+            color: white;
+            padding: 20px;
+            border: 2px solid rgb(0, 6000, 154);
+            margin: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        input {
+            background-color: #eee;
+            border: none;
+            padding: 12px 15px;
+            margin: 8px 0;
+            width: 100%;
+        }
+
+        select{
+            width: 300px;
+            height: 20px;
+        }
+
+        .button {
+            background: rgb(40,40,40);
+            color: rgb(255, 255, 255);
+            z-index: 1;
+        }
+
+        .button:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+            direction: rtl;
+            z-index: -1;
+            background: rgb(255, 255, 255);
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            color: rgb(0, 250, 154);
+        }
+
+        .button:hover:after {
+            left: auto;
+            right: 0;
+            width: 100%;
+        }
+
+        .button:active {
+            top: 2px;
+        }
+        h1{
+            color: #FFFFFF;
+            text-align: center;
+        }
+        
+
+    </style>
    
 </head>
 <body>
 
-<h3>Cadastro de Medicos</h3>
-
+<h1>Cadastro de Médicos</h1>
+<div>
 <form action="id-medicos.php" method="post">
 
     <label>
@@ -66,6 +161,6 @@
     <input type="submit">
 
 </form>
-    
+</div>
 </body>
 </html>

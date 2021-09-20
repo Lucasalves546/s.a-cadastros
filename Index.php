@@ -7,6 +7,16 @@
     <title></title>
     <link href="css.css" rel="stylesheet" type="text/css" />
 </head>
+
+    <style>
+       body{
+        background-color:black;
+        background-image: url("saude.jpg");
+       } 
+       ul{
+           text-align:center;
+       }
+    </style>
 <body>
 
 <ul>
